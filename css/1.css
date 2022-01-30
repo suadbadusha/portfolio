@@ -679,8 +679,11 @@ button:hover{
     }
     .footer_list li {
         padding-left:0px;
-      }
+    }
       .copyrights i{
         margin-left: 0%;
     }
+    .footer_list ul li span{
+        display:none;
+      }
   }
