@@ -7,6 +7,8 @@ html{
     transition-duration: 3s;
 
 }
+.fadeOut { opacity: 0; }
+.fadeIn { opacity: 1; }
 .body{
     margin: 0;
     background-color: #1f2028;
