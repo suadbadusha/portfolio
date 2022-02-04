@@ -22,6 +22,10 @@
   const fadeElms = document.querySelectorAll('.row');
   fadeElms.forEach(el => observer.observe(el));
 
+
+//form submission
+
+
   $("#submit-form").submit((e)=>{
     e.preventDefault()
     $.ajax({
