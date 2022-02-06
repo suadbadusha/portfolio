@@ -65,3 +65,21 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+
+
+$('.btn-bottom').on("click", function () {
+  var percentageToScroll =99;
+  var percentage = percentageToScroll / 100;
+  var height = $(document).scrollTop();
+  var scrollAmount = height * (1 - percentage);
+
+  console.log('scrollAmount: ' + scrollAmount);
+  $('html,body').animate({
+      scrollTop: scrollAmount
+  }, 'slow', function () {
+      console.log("reached top");
+  });
+
+});
