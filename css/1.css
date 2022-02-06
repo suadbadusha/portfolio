@@ -492,6 +492,9 @@ button:hover{
     
     
 }
+.footer_list li span{
+    margin-left: 5px;
+}
 .footer_list li {
     padding-left: 0px;
   }
@@ -815,8 +818,12 @@ button:hover{
         background-color:#0e0f13; 
     }
     .footer_list li {
-        padding-left:0px;
-      }
+        font-size: 22px;
+        margin: 0 0 0px 20px;
+    }
+    .footer_list li span {
+        display: none;
+    }
       .copyrights i{
         margin-left: 0%;
     }
