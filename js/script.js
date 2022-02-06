@@ -10,10 +10,8 @@
       if (entry.isIntersecting) {
         // fade in observed elements that are in view
         entry.target.classList.replace('fadeOut', 'fadeIn');
-      } else {
-        // fade out observed elements that are not in view
-        entry.target.classList.replace('fadeIn', 'fadeOut');
-      }
+      } 
+      
     });
   }
   
