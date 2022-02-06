@@ -70,7 +70,7 @@ $(document).ready(function(){
 
 
 $('.btn-bottom').on("click", function () {
-  var percentageToScroll =99;
+  var percentageToScroll =100;
   var percentage = percentageToScroll / 100;
   var height = $(document).scrollTop();
   var scrollAmount = height * (1 - percentage);
