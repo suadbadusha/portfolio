@@ -856,7 +856,7 @@ body {
 
 @media only screen and (max-width: 514px) {
   .about_img1 {
-    width: 220px;
+    width: 200px;
     border-radius: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -870,7 +870,7 @@ body {
     margin-left: 35%;
   }
   .about_img2 {
-    width: 220px;
+    width: 200px;
     border-radius: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -884,7 +884,7 @@ body {
             justify-content: start;
   }
   .about_img3 {
-    width: 220px;
+    width: 200px;
     border-radius: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -898,7 +898,7 @@ body {
     margin-left: 70px;
   }
   .about_img4 {
-    width: 220px;
+    width: 200px;
     margin-top: 10px;
     border-radius: 50px;
     -webkit-box-align: center;
