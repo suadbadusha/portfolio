@@ -540,12 +540,6 @@ body {
 .form-inline .contact_button {
   width: 100px;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 10px;
   padding: 5px;
   border: none;
